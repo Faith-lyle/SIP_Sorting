@@ -1,0 +1,18 @@
+{
+  "TestPlant": "./TestPlant.csv",
+  "TestSlot": 14,
+  "RunScriptCmd": "/Users/user/Desktop/Python_Project/H28_SIP_Sorting/Python_script",
+  "AppTitle": "H28 Sorting",
+  "AppVersion": "1.0.0",
+  "LogDirPath": "/Users/user/Desktop/Python_Project/H28_SIP_Sorting/Log",
+  "SerialPorts": ["/dev/cu.usbserial-GNhost10","/dev/cu.usbserial-GNhost20","/dev/cu.usbserial-GNhost21","/dev/cu.usbserial-GNhost21",
+    "/dev/cu.usbserial-GNhost23","/dev/cu.usbserial-GNhost24","/dev/cu.usbserial-GNhost25","/dev/cu.usbserial-GNhost26",
+    "/dev/cu.usbserial-GNhost27","/dev/cu.usbserial-GNhost28","/dev/cu.usbserial-GNhost29","/dev/cu.usbserial-GNhost30",
+    "/dev/cu.usbserial-GNhost31","/dev/cu.usbserial-GNhost32"
+  ],
+  "VirtualPorts": ["/dev/cu.kis-14210000-ch-2","/dev/cu.kis-14210001-ch-2","/dev/cu.kis-14210002-ch-2","/dev/cu.kis-14210003-ch-2",
+    "/dev/cu.kis-14210004-ch-2","/dev/cu.kis-14210005-ch-2","/dev/cu.kis-14210006-ch-2","/dev/cu.kis-14210007-ch-2",
+    "/dev/cu.kis-14210008-ch-2","/dev/cu.kis-14210009-ch-2","/dev/cu.kis-14210010-ch-2","/dev/cu.kis-14210011-ch-2",
+    "/dev/cu.kis-14210012-ch-2","/dev/cu.kis-14210013-ch-2"
+  ]
+}

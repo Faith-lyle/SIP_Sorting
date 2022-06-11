@@ -1,0 +1,12 @@
+TestName,TestLower,TestUpper,TestEnabled,TestMode,TestCmd,ReMarket,DecisionMode,ReTestTime
+Equipment Init,NA,NA,TRUE,Equipment_init,None,None,None,1
+Create Serial Port,NA,NA,TRUE,Equipment_init,None,None,None,1
+Open SerialPort,NA,NA,TRUE,Special,None,None,None,1
+Read DUT MLB SN, 17, 17,TRUE,Normal,syscfg print MLB#,syscfg:ok "(.*)?",Length,1
+Read DUT Version, ok, ok,TRUE,Normal,ft version,ft:ok ,IN,1
+MIC1 Init,audio:ok,audio:ok,TRUE,Normal,"audio init,audio init,audio var pwr mic mid,audio record 48000 50 2 mic1",> audio:ok,IN,1
+MIC1 Test, NA, NA,TRUE,Special,NA,NA,NA,1
+MIC2 Init, audio:ok,audio:ok,TRUE,Normal,"audio init,audio var pwr mic mid,audio record 48000 50 2 mic2",> audio:ok,IN,1
+MIC2 Test, NA, NA,TRUE,Special,NA,NA,NA,1
+Close SerialPort,NA,NA,TRUE,Special,None,None,None,1
+Equipment Reset,NA,NA,TRUE,Equipment_reset,None,None,None,1

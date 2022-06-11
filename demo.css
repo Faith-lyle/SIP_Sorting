@@ -1,0 +1,8 @@
+# 设置背景颜色为红色
+        self.setAutoFillBackground(True)
+        palette = QPalette()
+        palette.setColor(QPalette.Window, QColor(255, 0, 0))
+        self.setPalette(palette)
+        self.setGeometry(300, 300, 200, 200)
+        self.setWindowTitle('红色')
+        self.show()
